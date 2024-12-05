@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="formulario.css">
+    <script src="formulario.js"></script>
+</head>
+
+<body>
+    
+
+    <section class="field">
+        <div class="fundo-form" id="FUNDO">
+
+            <center>
+                <h1 style="color:#002930" id="FUNDO1">Coloque seus Dados</h1>
+            </center><br>
+
+
+
+            <form method="post" action="create_usuario.php" class="formulario" id="FUNDO2">
+                <div style="color: #002930">
+                    <label>Nome e Sobrenome:</label><br>
+                </div>
+                <div>
+                    <input type="text" name="nome" placeholder="Ex:Lucas Vasconcelos" style="width: 550px;">
+                </div>
+                <br>
+                <div>
+                  
+                    <div style="color:#002930">
+                        <label>Digite seu Celular:</label><br>
+                    </div>
+                </div>
+                <div>
+                  
+                    <input type="text" name="celular" placeholder="Ex:(67) 2928-1155" style=" width: 455px;"
+                        maxlength="10">
+                </div><br>
+                <div style="color:#002930">
+                    <label>Seu E-mail:</label><br>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Ex:chery4478@uorak.com" style="width: 550px;">
+                </div><br>
+                <div style="color: #002930;">
+                    <label>Metodos de pagamentos</label>
+                    <label style="margin-left: 42px;">Cidade que será enviada:</label><br>
+                </div>
+                <div>
+                    <select name="estado" style="width: 150px;">
+                        <option value="" disabled selected hidden>Selecione</option>
+                        <option value="Pix">Pix</option>
+                        <option value="Cdc">Cartão de crédito</option>
+                        <option value="Cdd">Cartão de débito</option>
+                       
+                    </select>
+                    <select name="cidade" style="margin-left: 25px; width: 375px;">
+                        <option value="" disabled selected hidden>Selecione sua Cidade</option>
+                        <option value="recife">Recife</option>
+                        <option value="maceio">Maceió</option>
+                        <option value="macapa">Macapá</option>
+                        <option value="manaus">Manaus</option>
+                        <option value="salvador">Salvador</option>
+                        <option value="fortaleza">Fortaleza</option>
+                        <option value="brasilia">Brasília</option>
+                        <option value="vitoria">Vitória</option>
+                        <option value="goiania">Goiânia</option>
+                    </select>
+                </div><br>
+                
+                <div class="botao" id="botao">
+                    <input type="submit" name="submit" value="Comprar">
+                </div>
+
+            </form>
+
+        </div>
+    </section>
+
+    <div class="container-2">
+        <img src="img/livros/gatole.jpg" id="IMG">
+    </div>
+
+</body>
+
+</html>

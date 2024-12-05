@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{ 
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding-top: 150px;   
+    background-color: #002930;
+    
+}
+
+.Container{
+    display: flex;
+    justify-content: flex-end;   
+    
+}
+
+.container-2 img{
+    margin-top: -70px;
+    margin-left: -30px;
+    margin-right: 10%;    
+    border-radius: 15px;
+    width: 33rem;
+    height: 50rem;
+    /* box-shadow: 8px 8px 8px #ffffff;    */
+    opacity: 0;   
+    transform: translateY(15px);
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+    z-index: 50;
+}
+
+.formulario{
+    color: #c90c0c;
+    padding: 30px;
+    opacity: 0;   
+    transform: translateY(15px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.formulario div{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+select{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    color: #000000;
+}
+
+
+.field label, 
+.field span{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.1em;    
+    
+}
+
+.radiobox label{
+    width: auto;
+    
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    padding-left: 5px;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1.2em;
+}
+
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+
+input[type=submit]{
+    background-color:#002930;
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.imagem{
+    background-image: url(img/BackGroundForm.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;     
+    width: 700px;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    
+}
+
+.fundo-form{
+    width: 700px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #f4f0ea;
+    border-radius: 15px;
+    opacity: 0;   
+    
+}
+.fundo-form h1{
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-right: 50px;
+    opacity: 0;   
+    transform: translateX(-15px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.botao{
+    margin-top: 20px;
+    margin-right: 75px;
+    opacity: 0;   
+    transform: translateY(-15px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
