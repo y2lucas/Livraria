@@ -49,122 +49,122 @@ window.onload = function () {
     setTimeout(function () {
         fundo3.style.transform = 'translateX(0)';
         fundo3.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         fundo4.style.transform = 'translateX(0)';
         fundo4.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         fundo5.style.transform = 'translateX(0)';
         fundo5.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         fundo6.style.transform = 'translateX(0)';
         fundo6.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         fundo7.style.transform = 'translateX(0)';
         fundo7.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         fundo8.style.transform = 'translateX(0)';
         fundo8.style.opacity = 1;
-    }, );
+    },);
 
     setTimeout(function () {
         img.style.transform = 'translateX(0)';
         img.style.opacity = 1;
-    }, );
+    },);
 
     setTimeout(function () {
         img1.style.transform = 'translateX(0)';
         img1.style.opacity = 1;
-    }, );
+    },);
 
     setTimeout(function () {
         img2.style.transform = 'translateX(0)';
         img2.style.opacity = 1;
-    }, );
+    },);
 
     setTimeout(function () {
         img3.style.transform = 'translateX(0)';
         img3.style.opacity = 1;
-    }, );
+    },);
 
     setTimeout(function () {
         img4.style.transform = 'translateX(0)';
         img4.style.opacity = 1;
-    }, );
+    },);
 
     setTimeout(function () {
         img5.style.transform = 'translateX(0)';
         img5.style.opacity = 1;
-    }, );
+    },);
 
     setTimeout(function () {
         img6.style.transform = 'translateX(0)';
         img6.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img7.style.transform = 'translateX(0)';
         img7.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img8.style.transform = 'translateX(0)';
         img8.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img9.style.transform = 'translateX(0)';
         img9.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img10.style.transform = 'translateX(0)';
         img10.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img11.style.transform = 'translateX(0)';
         img11.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img12.style.transform = 'translateX(0)';
         img12.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img13.style.transform = 'translateX(0)';
         img13.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img14.style.transform = 'translateX(0)';
         img14.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img15.style.transform = 'translateX(0)';
         img15.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img16.style.transform = 'translateX(0)';
         img16.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img17.style.transform = 'translateX(0)';
         img17.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img18.style.transform = 'translateX(0)';
         img18.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img19.style.transform = 'translateX(0)';
         img19.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img20.style.transform = 'translateX(0)';
         img20.style.opacity = 1;
-    }, );
+    },);
     setTimeout(function () {
         img21.style.transform = 'translateX(0)';
         img21.style.opacity = 1;
-    }, );
+    },);
 
 
 
